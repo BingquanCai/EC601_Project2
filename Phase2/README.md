@@ -30,6 +30,6 @@ The MVP includes the Twitter API part and the Google NLP API part. For the Twitt
 
 ## Operation
 
-I set the keyword to be 'boston university' and get 5 latest tweets from the last 24 hours. The result show below.
+I enter the keyword 'boston university' and set the number to be 5 to get 5 latest tweets from the last 24 hours. The result show below.
 
 ![](https://raw.githubusercontent.com/BingquanCai/EC601_Project2/main/Phase2/result.png)
