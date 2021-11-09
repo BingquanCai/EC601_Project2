@@ -19,7 +19,7 @@ def authentication(cons_key, cons_secret, acc_token, acc_secret):
     api = tweepy.API(auth)
     return api
 
-# Search tweets from the last 24 hours with maximum tweets of 20
+# Search tweets from the last 24 hours with maximum tweets of 5
 def search_tweets(keyword, total_tweets):
     today_datetime = datetime.today().now()
     yesterday_datetime = today_datetime - timedelta(days=1)
@@ -60,7 +60,7 @@ def analyze_tweets(keyword, total_tweets):
 
 def main():
     keyword = input("Enter a keyword: ")
-    final_score = analyze_tweets(keyword, 20)
+    final_score = analyze_tweets(keyword, 5)
     if final_score <= -0.25:
         status = 'NEGATIVE'
     elif final_score <= 0.25:
