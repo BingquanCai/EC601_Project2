@@ -10,12 +10,12 @@ The Twitter API can be used to programmatically retrieve and analyze data, as we
 
 Therefore, we can obtain the tweets that we are interested in from the Twitter API and then analyze them by using the Google NLP API, especially for the sentiment analysis.
 
-In [Twitter_Google NLP API.py](https://github.com/BingquanCai/EC601_Project2/blob/main/Phase2/Twitter_Google%20NLP%20API_analyzer.py), I gather tweets from the last 24 hours by using the Twitter API and typing in a keyword. Then I use the the Google NLP API to do the sentiment analysis with those related tweets and return some results.
+In [update_Twitter_Google_NLP_API_analyzer.py](https://github.com/BingquanCai/EC601_Project2/blob/main/Phase2/update_Twitter_Google_NLP_API_analyzer.py), I gather tweets from the last 24 hours by using the Twitter API and typing in a keyword. Then I use the the Google NLP API to do the sentiment analysis with those related tweets and return some results.
 
-- search_tweets( ) can search tweets based on time and quantity.
-- clean_tweets( ) can clean tweets before analyzing in Google NLP API.
-- get_sentiment_score( ) can use the sentiment analysis to get a score.
-- analyze_tweets( ) can print out the final results.
+- `search_tweets( )` can search tweets based on time and quantity.
+- `clean_tweets( )` can clean tweets before analyzing in Google NLP API.
+- `get_sentiment_score( )` can use the sentiment analysis to get a score.
+- `analyze_tweets( )` can print out the final results.
 
 ## MVP and user stories
 
@@ -27,3 +27,7 @@ The MVP includes the Twitter API part and the Google NLP API part. For the Twitt
 ## Modular Design
 
 ![](https://raw.githubusercontent.com/BingquanCai/EC601_Project2/main/Phase2/modular%20design.png)
+
+## Operation
+
+![](https://raw.githubusercontent.com/BingquanCai/EC601_Project2/main/Phase2/result.png)
